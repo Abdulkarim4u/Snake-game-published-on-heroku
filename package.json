@@ -11,14 +11,17 @@
     "build": "npm run build --prefix www",
     "heroku-prebuild": "npm install --prefix www"
   },
-  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdulkarim4u/Snake-game-published-on-heroku.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    
+    "url": "https://github.com/Abdulkarim4u/Snake-game-published-on-heroku.git"
   },
-  
+  "homepage": "https://github.com/Abdulkarim4u/Snake-game-published-on-heroku.git",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1"

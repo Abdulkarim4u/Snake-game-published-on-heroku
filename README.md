@@ -1,21 +1,24 @@
 
-#snake-rust-game (How to run)
+# snake-game in rust (How to run)
 
-##Dependencies
+## Dependencies
 
-Install rustup -> https://doc.rust-lang.org/book/ch01-01-installation.html
+1.Install rustup -> https://doc.rust-lang.org/book/ch01-01-installation.html
 
-Install "wasm-pack" -> cargo install wasm-pack
+2.Install "wasm-pack" -> cargo install wasm-pack
 
-Install npm dependencies -> npm install (must have Node JS) -> https://nodejs.org/)
+3.Install npm dependencies -> npm install (must have Node JS) -> https://nodejs.org/)
 
-##Compilation
+## Compilation
 
 Compile the rust code every time the changes are made in src/lib.rs
 
-Compile rust code into web-assembly -> wasm-pack build --target web
+4.Compile rust code into web-assembly -> wasm-pack build --target web
 
-Run the development server npm start
+5.Run the development server npm start
 
-Open the browser on localhost:8080
+6.Open the browser on localhost:8080
+
+# GameLink
+https://snake-game-morow.herokuapp.com/
 
